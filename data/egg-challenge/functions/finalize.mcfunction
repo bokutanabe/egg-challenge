@@ -1,0 +1,1 @@
+execute at @e[name=watcher] unless entity @e[type=egg,distance=..10] run kill @e[name=watcher]
