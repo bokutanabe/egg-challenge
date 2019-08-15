@@ -1,3 +1,4 @@
+tellraw @p [{"text":"initializing..."}]
 scoreboard objectives add status dummy
 scoreboard objectives setdisplay sidebar status
 scoreboard players set @p status 1
