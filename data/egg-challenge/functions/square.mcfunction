@@ -7,3 +7,4 @@ setblock ~59 ~ ~ minecraft:water
 summon minecraft:armor_stand ~60 ~15 ~ {CustomName:"\"watcher\"",NoGravity:true,Invisible:true}
 
 scoreboard players set @p status 4
+title @p title "START"
