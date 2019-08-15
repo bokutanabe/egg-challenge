@@ -4,6 +4,7 @@ execute at @e[name=watcher] run fill ~ ~-3 ~-2 ~ ~-3 ~2 minecraft:yellow_concret
 execute at @e[name=watcher] run setblock ~ ~-2 ~-2 minecraft:black_concrete
 execute at @e[name=watcher] run setblock ~ ~-2 ~2 minecraft:black_concrete
 kill @e[name=watcher]
+kill @e[name=origin]
 
 tellraw @p [{"text":"------------"}]
 tellraw @p [{"text":"final result : "},{"score":{"name":"@p","objective":"chicken_cnt"}},{"text":" / "},{"score":{"name":"@p","objective":"egg_cnt"}}]
