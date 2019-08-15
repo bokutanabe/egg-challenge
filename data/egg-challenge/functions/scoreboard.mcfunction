@@ -1,5 +1,3 @@
-tag @p add egg-challenge
-
 scoreboard objectives add status dummy
 scoreboard objectives setdisplay sidebar status
 scoreboard players set @p status 1
@@ -11,3 +9,5 @@ scoreboard players set @p egg_cnt 0
 
 scoreboard objectives add chicken_cnt dummy
 scoreboard players set @p chicken_cnt 0
+
+tag @p add score-init-complete
