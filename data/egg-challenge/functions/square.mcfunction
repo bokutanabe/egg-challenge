@@ -8,3 +8,4 @@ summon minecraft:armor_stand ~60 ~15 ~ {CustomName:"\"watcher\"",NoGravity:true,
 
 scoreboard players set @p status 4
 title @p title "START"
+summon minecraft:chicken ~ ~1 ~ {NoAI:true,Rotation:[-90.0f,0.0f],CustomName:"\"tanabe\""}

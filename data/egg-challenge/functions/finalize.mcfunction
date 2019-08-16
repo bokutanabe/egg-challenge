@@ -18,3 +18,4 @@ tag @p remove score-init-complete
 tag @p remove egg-challenge
 
 title @p title "FINISH"
+data merge entity @e[type=chicken,name=tanabe,limit=1,sort=nearest] {CustomName:"",NoAI:false}

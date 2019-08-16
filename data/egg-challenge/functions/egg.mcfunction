@@ -1,4 +1,5 @@
 summon egg ~ ~2 ~ {Motion:[2.0,1.0,0.0]}
+playsound minecraft:entity.chicken.egg player @p
 execute at @e[name=watcher] run fill ~ ~-6 ~-2 ~ ~-2 ~2 minecraft:white_concrete
 scoreboard players add @p egg_cnt 1
 
